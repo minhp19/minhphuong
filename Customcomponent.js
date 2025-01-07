@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-const App = () => {
+const Customcomponent = () => {
   return (
     <View style={styles.wrapper}>
     <View style={styles.container}>
@@ -32,4 +32,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default App;
+export default Customcomponent;
